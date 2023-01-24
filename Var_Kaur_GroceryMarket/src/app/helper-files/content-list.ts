@@ -1,7 +1,7 @@
 import { Content } from "./content-interface";
 
 
-export class List {
+export class ContentList {
   static ContentCount = 0;
   private _items: Content[];
   constructor() {
